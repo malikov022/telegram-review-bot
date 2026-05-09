@@ -13,7 +13,9 @@ import io
 
 # ==================== НАСТРОЙКИ ====================
 # Вставьте сюда ваш токен от BotFather
-BOT_TOKEN = 8696521171:AAGF1l48a6tvrb0uQVMNYqc8yyVsqNRaE_c
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # ID админа (ваш Telegram ID) - узнаем позже
 ADMIN_ID = 0
